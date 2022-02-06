@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
-import 'package:flutterfire_samples/res/custom_colors.dart';
-import 'package:flutterfire_samples/utils/authentication.dart';
-import 'package:flutterfire_samples/widgets/google_sign_in_button.dart';
-import 'package:flutterfire_samples/TabControllerGuest.dart';
+import 'package:weatherapp/res/custom_colors.dart';
+import 'package:weatherapp/utils/authentication.dart';
+import 'package:weatherapp/widgets/google_sign_in_button.dart';
+import 'package:weatherapp/TabControllerGuest.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);

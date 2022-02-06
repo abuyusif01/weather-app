@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, file_names
 
 import 'package:flutter/material.dart';
-import 'package:flutterfire_samples/screens/sign_in_screen.dart';
-import 'weather.dart';
+import 'package:weatherapp/forecast.dart';
+import 'package:weatherapp/screens/sign_in_screen.dart';
 import 'ContactUs.dart';
 
 class TabControllerClassGuest extends StatefulWidget {
@@ -17,6 +17,7 @@ class _TabControllerClassGuestState extends State<TabControllerClassGuest> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: DefaultTabController(
       length: 3,
       child: Scaffold(
@@ -67,7 +68,7 @@ class _TabControllerClassGuestState extends State<TabControllerClassGuest> {
                 ),
               ),
             ),
-            Weather(),
+            Forecast(),
             const ContactUs(),
           ],
         ),

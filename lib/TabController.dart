@@ -2,9 +2,10 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterfire_samples/ContactUs.dart';
-import 'package:flutterfire_samples/screens/user_info_screen.dart';
-import 'package:flutterfire_samples/weather.dart';
+import 'package:weatherapp/ContactUs.dart';
+import 'package:weatherapp/forecast.dart';
+import 'package:weatherapp/screens/user_info_screen.dart';
+import 'package:weatherapp/weather.dart';
 
 class TabControllerClass extends StatefulWidget {
   const TabControllerClass({Key? key, required User user})
@@ -21,6 +22,7 @@ class _TabControllerClassState extends State<TabControllerClass> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: DefaultTabController(
       length: 3,
       child: Scaffold(
@@ -37,7 +39,7 @@ class _TabControllerClassState extends State<TabControllerClass> {
         body: TabBarView(
           children: [
             UserInfoScreen(user: widget._user),
-            Weather(),
+            Forecast(),
             const ContactUs(),
           ],
         ),

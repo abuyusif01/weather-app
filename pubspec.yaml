@@ -1,5 +1,5 @@
-name: flutterfire_samples
-description: A new Flutter project.
+name: weatherapp
+description: MAD GROUP PROJECT.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -37,6 +37,8 @@ dependencies:
   firebase_auth: ^3.3.5
   firebase_core: ^1.11.0
   google_sign_in: ^5.2.3
+  fluttertoast: ^8.0.8
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:

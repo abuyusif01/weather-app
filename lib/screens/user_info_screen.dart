@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterfire_samples/res/custom_colors.dart';
-import 'package:flutterfire_samples/screens/sign_in_screen.dart';
-import 'package:flutterfire_samples/utils/authentication.dart';
+import 'package:weatherapp/res/custom_colors.dart';
+import 'package:weatherapp/screens/sign_in_screen.dart';
+import 'package:weatherapp/utils/authentication.dart';
 
 
 class UserInfoScreen extends StatefulWidget {
