@@ -1,11 +1,3 @@
-## GROUP MEMBERS
-- CISSE MAMADOU THIANA (1731425)
-- ABUBAKAR ABUBAKAR YUSSUF (1821881)
-- MOHAMMED MOHAMMED (1817733)
-- AYUB MOHAMMED AHMED (1737641)
-
-
-
 
 Project summary 
 Weather predictions are created by gathering as much information as possible about the current state of the atmosphere (especially temperature, humidity, and wind) and using meteorology to predict how the environment will evolve in the future.
